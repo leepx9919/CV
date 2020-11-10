@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Sanchez" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <title>Resume</title>
+  <style>
+    html {
+      background-color: #ebeced;
+      padding: 0 1em;
+    }
+
+    body {
+      background-color: #fff;
+      margin: 1em auto;
+      max-width: 50em;
+    }
+
+    p,
+    ul {
+      font-family: 'Sanchez', serif;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+
+    }
+a:hover{
+  background-color: #fff;
+}
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #263547;
+      height: 150px;
+    }
+
+    .logo {
+      background: url('./rss.png') no-repeat;
+      width: 32px;
+      height: 32px;
+      margin: 20px;
+    }
+
+    .title-holder {
+      align-items: center;
+    }
+
+    .nama {
+      color: #ffffff;
+      font-family: 'Montserrat', serif;
+      text-transform: uppercase;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .designare {
+      color: #ffffff;
+      font-family: 'Sanchez', serif;
+      text-transform: uppercase;
+    }
+
+    .content-body {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .wrapper {
+      margin: 20px;
+    }
+
+    .section-left {
+      flex: 1;
+      background-color: grey;
+    }
+
+    .section-left ul {
+      list-style: outside;
+      margin-left: -40px;
+      text-transform: capitalize;
+      font-size: 12px;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 0.9em;
+      font-weight: bold;
+      font-family: 'Montserrat', serif;
+      letter-spacing: 2px;
+      color: yellow;
+
+    }
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 0.7em;
+      font-family: 'Sanchez', serif;
+      font-weight: normal;
+      letter-spacing: 2px;
+
+    }
+
+    h4 {
+      font-family: 'Sanchez', serif;
+      font-weight: normal;
+      font-size: 0.8em;
+      margin-top: -10px;
+      font-style: italic;
+      letter-spacing: 1px;
+    }
+
+    .section-right {
+      flex: 2;
+    }
+
+    .section-right .wrapper {
+      margin-left: 50px;
+    }
+
+    .section-right ul {
+      margin-left: -20px;
+    }
+
+    .section-right h2 {
+      color: #1b262c;
+      font-weight: bold;
+    }
+
+    .ps {
+      color: #ffffff;
+    }
+
+    .content_2 {
+      margin-left: 50px;
+      margin-right: 20px;
+    }
+
+    .lists_2 {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo"></div>
+      <div class="title-holder">
+        <div class="nama">Peter Lee</div>
+        <div class="designare">IT Professional</div>
+      </div>
+    </div> <!-- end header -->
+
+    <div class="content-body">
+      <div class="section-left">
+        <div class="wrapper">
+          <div class="lists">
+            <h2>Qualifications</h2>
+            <ul>
+              <li>Core understanding of programming principles and standards.</li>
+              <li>Experience with automating tasks via shell scripting and Python.</li>
+              <li>Experience with various OS (Windows, MAC, Linux distros).</li>
+              <li>Creative and analytical problem-solving and troubleshooting skills.</li>
+              <li>Created personal site using HTML, CSS, Bootstrap, and JS with multple projects frontend and backend.</li>
+            </ul>
+          </div>
+          <div class="lists">
+            <h2>Skills</h2>
+            <ul>
+              <li>Networking</li>
+              <li>Server</li>
+              <li>Mobile</li>
+              <li>Virtual Machine</li>
+              <li>Device provisioning and management</li>
+              <li>Support and Troubleshooting</li>
+              <li>Documentation</li>
+            </ul>
+          </div>
+          <div class="lists">
+            <h2>Languages</h2>
+            <ul>
+              <li>Python</li>
+              <li>JS</li>
+              <div class="lists_2">
+                <li>JQuery</li>
+              </div>
+              <li>CSS</li>
+              <div class="lists_2">
+                <li>Bootstrap</li>
+              </div>
+              <li>HTML</li>
+            </ul>
+          </div>
+          <div class="lists">
+            <h2>contact</h2>
+            <p>P: 608-416-9288</p>
+            <p><a href="mailto:leepx9919@gmail.com">E: leepx9919@gmail.com</a></p>
+          </div>
+        </div> <!-- end wrapper -->
+      </div> <!-- end section-left -->
+      <div class="section-right">
+        <div class="wrapper">
+          <div class="content">
+            <h2>About</h2>
+            <p>Ambitious and driven IT professional and self-taught developer. 10+ years of high level technical support and administration in
+              various functions and technologies. Work experience includes field tech, help-desk, desktop, server, and network roles. </p>
+          </div>
+          <div class="content">
+            <h2>work experience</h2>
+            <h3>System Admin-Telecommunications</h3>
+            <h4>Department of Corrections | January 2016 to January 2020 </h4>
+            <div class="Work_1">
+              <ul>
+                <li>Network and endpoint provisioning and management.</li>
+                <ul>
+                  <li>Provision and deploy edge POE Cisco layer 2&3 switches for DOC OTIS network.</li>
+                  <li>Administer enrollment and management of mobile IOS and android devices via DEP and WorkSpace MDM.</li>
+                  <li>Provision and deploy Polycom H.323 and SIP based video-conference units. </li>
+                  <li>PC build with custom image via MDT with PXE boot.</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Server management and maintenance via Citrix and standalone.</li>
+                <ul>
+                  <li>Polycom, Milestone, Workspace MDM, Windows.</li>
+                  <li>Surveillance server and NAS build and deployment.</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Infrastructure support (LAN, WAN, wireless, server, phones (PBX and VOIP)</li>
+              </ul>
+              <ul>
+                <li>Network topology documentation using Visio.</li>
+              </ul>
+              <ul>
+                <li>Ticket workflow via Ivanti ServiceDesk. </li>
+              </ul>
+              <ul>
+                <li>MOP, SOP, and escalation documentation. Update as necessary to reflect current process.</li>
+              </ul>
+              <ul>
+                <li>Data Analysis.</li>
+                <ul>
+                  <li>Research and evaluate cost benefit of current technologies to improve infrastructure. </li>
+                  <li>Run and collect data reports via Excel and Access.</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Projects</li>
+                <ul>
+                  <li>Mobility deployment including onsite training. </li>
+                  <li>BCN T1 to ISP for DOC worksites.</li>
+                  <li>Server upgrade from 2008 R2 to 2012.</li>
+                  <li>Tech refresh.</li>
+                </ul>
+              </ul>
+            </div>
+            <div class="work_2">
+              <h3>Network Specialist</h3>
+              <h4>Charter Business | August 2015 to December 2015</h4>
+              <ul>
+                <li>Network/Device Provisioning</li>
+                <ul>
+                  <li>Implement proper service configuration for edge, distribution, and core switches. Ensure that devices adhere to compliance, monitoring, and accessibility. </li>
+                  <li>Perform real time troubleshooting and monitoring to ensure completion of assigned projects, perform follow-up and fallout as needed, and provide communication based on Charter standards to verify the complete process of service
+                    install.</li>
+                  <li>Provision CPE devices for OBI/LBI, PRI, EPL, AEPL, EPLAN, AEVPL services by verifying and applying the proper final configuration adhering to business agreement remotely.</li>
+                  <li>Add device to HPNA and CPM for TACACS, port monitoring, and network monitoring.</li>
+                  <li>Dependent on customer, implement RFC or BV10 test with loopback interfaces to verify network SLA metrics are met.</li>
+                  <li>Utilize RFC-2455, Ethersam, and Brixxworx GUI to set and run network test for ISP and cell carriers.</li>
+                  <li>Use SAM to add Alcatel device for monitoring and to execute SAA test (CFM-two way delay).</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Network Troubleshooting</li>
+                <ul>
+                  <li>Provide troubleshooting support for network and hardware (routers, switches, Adtran, BV10, SFP optics, etc.) issues with technician over the phone.</li>
+                  <li>Utilize SevOne to observe network activities for customer device and circuits. Escalate any found issues to the proper levels as needed.</li>
+                  <li>Investigate and trace network. </li>
+                  <li>Interact with higher level engineers to rectify critical issues and priority first task/ticket. </li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Create and verify network topology for disconnects in order for assigned department to perform proper execution.</li>
+              </ul>
+              <ul>
+                <li>Adress priority task tickets via Jira.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="work_3">
+            <h3>Field Technical Support Rep II </h3>
+            <h4>Hewlett-Packard/Pmps| August 2015 to December 2015</h4>
+            <ul>
+              <li>Troubleshooting and repairing printer hardware, firmware, and software issues. Implement preventive measures to assure proper working condition of printers.</li>
+              <li>Provide technical consultation, resolution, and maintenance services for various brand printers across statewide HP clients. </li>
+            </ul>
+          </div>
+          <div class="work_4">
+            <h3>IT Specialist</h3>
+            <h4>Hewlett-Packard Enterprise | August 2010 – June 2012</h4>
+            <ul>
+              <li>Tier 1 and 2 support via ticketing system ServiceNow and email. </li>
+              <li>Projects: hardware move, tech refresh, software installations, hardware installations, and OS system patch and upgrades.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content_2">
+          <h2>education</h2>
+          <h3>Associate of Applied Science-Network Specialist </h3>
+          <h4>Madison College | 2013-2015</h4>
+          <h3>BA-Sociology </h3>
+          <h4>University of Wisconsin-Madison | 2004-2009</h4>
+        </div>
+      </div>
+    </div> <!-- end section right -->
+  </div>
+</body>
+</html>
